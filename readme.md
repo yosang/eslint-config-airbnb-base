@@ -1,10 +1,14 @@
 # About
-Simple to use and setup ESLint configuration that enforces good coding practices.
+Simple to use and simple to setup ESLint configuration that enforces good coding practices.
 
 If you want to checkout all the rules applied to this config, checkout their [repo](https://github.com/airbnb/javascript)
 
 # Usage
-To install run `npm install --save-dev eslint eslint-plugin-import eslint-config-airbnb-base`
+[Link to npm package](https://www.npmjs.com/package/eslint-config-airbnb-base)
+
+To install eslint use `npx install-peerdeps --dev eslint-config-airbnb-base` 
+
+Alternatively, if npm version <5 use `npm install --save-dev eslint eslint-plugin-import eslint-config-airbnb-base`
 
 Add script to package.json `"lint":"eslint ."` and run it with `npm run lint`, if you want to automatically fix errors run it with `npm run lint -- --fix`
 
